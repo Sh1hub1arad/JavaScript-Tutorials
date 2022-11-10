@@ -1,0 +1,25 @@
+# JavaScript-can-change-the-style-of-an-HTML-element.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <style>
+        p{
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>What can JavaScript Do?</h1>
+    <p id ="demo">JavaScript can change the style of an HTML element </p>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='45px'">click me!</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">click me again!</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='12px'">reset</button>
+
+
+    
+</body>
+</html>
